@@ -24,7 +24,6 @@ const newMagicWand = {
     artista : 'Tyler, The Creator',
     file : 'NEWMAGICWAND',
     gostei: true
-
 }
 
 const kingKunta = {
@@ -77,8 +76,8 @@ function playPause(){
 function carregarMusica(){
     nome.innerText = `${playlistAleatoria[index].nome}`
     artista.innerText = `${playlistAleatoria[index].artista}`
-    som.src = `/musicas/${playlistAleatoria[index].file}`
-    capa.src= `/imagens/capas/${playlistAleatoria[index].capa}`
+    som.src = `musicas/${playlistAleatoria[index].file}`
+    capa.src= `imagens/capas/${playlistAleatoria[index].capa}`
     botaoLike()
 }
 
