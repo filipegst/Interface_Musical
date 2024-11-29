@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+}
+
+#logo{
+    height: 5vh;
+}
+
+#pageHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5px;
+}
+
+#boxPesquisa{
+    max-width: 55%;
+}
+
+.pmodal{
+    font-size: 1em;
+    margin: 0px;
+}
+
+.bg-secondary {
+    padding-top: 60px ;
+}
+
+.btn-outline-danger{
+    height: 2.3rem;
+
+}
+
