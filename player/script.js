@@ -41,9 +41,9 @@ const samurai = {
     gostei: false
 
 }
-
-const playlist = JSON.parse(localStorage.getItem('playlist')) ??  [newMagicWand, kingKunta, samurai ]
 let playlistAleatoria = [...playlist]
+
+let playlist = JSON.parse(localStorage.getItem('playlist')) ??  [newMagicWand, kingKunta, samurai ]
 
 let index = 0
 

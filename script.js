@@ -65,7 +65,7 @@ const playlist = [
 let musicas = [...playlist]
 
 
-let modalPlaylist = JSON.parse(localStorage.getItem('playlist') ??[newMagicWand,kingKunta,samurai,])
+let modalPlaylist = JSON.parse(localStorage.getItem('playlist') ?? JSON.stringify([newMagicWand, kingKunta, samurai]))
 
 function carregaPlaylist() {
     
