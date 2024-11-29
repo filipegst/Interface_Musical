@@ -74,7 +74,7 @@ function carregaPlaylist() {
         pageBody.innerHTML +=
         `
         <div class="card d-flex flex-column" style="width: 18rem; height: 30rem;">
-        <img src="/imagens/capas/${musicas[index].capa}" class="card-img-top" alt="Capa do disco">
+        <img src="imagens/capas/${musicas[index].capa}" class="card-img-top" alt="Capa do disco">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">${musicas[index].nome}</h5>
           <p class="card-text"> ${musicas[index].album}</p>
